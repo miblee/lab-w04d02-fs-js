@@ -4,6 +4,14 @@ Our boss is stuck in the Stone Age as has handed us a CSV containing some Census
 
 Use the `census_data.csv` file and Node's filesystem module to turn that data into a valid and usable JSON file.
 
+Example output:
+
+```
+[
+  {state: 'Delaware', totalPopulation2010: 236990, /* etc */ }
+]
+```
+
 # Bonus
 Can you change the script to use command line arguments to make the parser work for any csv file?
 https://www.npmjs.com/package/argv
