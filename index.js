@@ -32,17 +32,14 @@ fs.readFile('./census.csv', 'utf8', function(err, data){
   console.log();
 
 
-  fs.writeFile('censusArr.md', splitData, function(err, data){
+  fs.writeFile('censusArr.md', outputData, function(err){
     if(err) throw err;
     console.log('censusArr file made');
   })
 })
 
 
-module.exports = {
-  // parse: parse
-  index.js
-}
+// module.exports = index.js
 
 // create an empty object
 // create keys of states
